@@ -1,0 +1,179 @@
+/* Resetting margin and padding for a cleaner slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F4F4F9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for centering content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header section */
+header {
+    background-color: #154360;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #F39C12;
+}
+
+/* Section Styling */
+.content-section {
+    padding: 50px 0;
+    background-color: #fff;
+    margin-bottom: 30px; /* Ensure spacing for footer */
+}
+
+.content-section h2 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #154360;
+}
+
+.content-section p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    line-height: 1.8;
+}
+
+ul li {
+    font-size: 1em;
+}
+
+/* Project Section */
+.project {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8em;
+    color: #154360;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #F39C12;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project a:hover {
+    color: #154360;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #154360;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px; /* Add some space between footer and the content */
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Button styles */
+button {
+    background-color: #F39C12;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E67E22;
+}
+
+/* Animations */
+.animate {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+/* Estilo para los GIFs de los proyectos */
+.project-gif {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cuando el GIF está en hover (si quieres una animación al pasar el ratón) */
+.project-gif:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
